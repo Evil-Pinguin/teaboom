@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fefcef">
+    <meta name="description" content="Ананасовый улун: светлый фуцзяньский чай с ароматом спелого ананаса. Демонстрационная карточка товара Чайный Бум.">
+    <title>Ананасовый улун — Чайный Бум</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/product.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#product">Перейти к товару</a>
+
+    <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="icon-leaf" viewBox="0 0 24 24">
+        <path d="M20 4C12 3 5 6 5 12a7 7 0 0 0 7 7c6 0 9-7 8-15Z"/>
+        <path d="M4 21 15 10M9 16v-5m0 5h5"/>
+      </symbol>
+      <symbol id="icon-bag" viewBox="0 0 24 24">
+        <path d="M5 8h14l1 13H4L5 8Z"/>
+        <path d="M8 9V6a4 4 0 0 1 8 0v3"/>
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m5 12 4 4L19 6"/>
+      </symbol>
+      <symbol id="icon-expand" viewBox="0 0 24 24">
+        <path d="M14 4h6v6M20 4l-6 6M10 20H4v-6m0 6 6-6"/>
+      </symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <path d="m6 6 12 12M6 18 18 6"/>
+      </symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24">
+        <path d="M4 6h16M4 12h16M4 18h16"/>
+      </symbol>
+      <symbol id="icon-thermometer" viewBox="0 0 24 24">
+        <path d="M9 14.5V5a3 3 0 0 1 6 0v9.5a5 5 0 1 1-6 0Z"/>
+        <path d="M12 8v9m0 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm5-10h3m-3 4h2"/>
+      </symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M12 7v5l3 2"/>
+      </symbol>
+      <symbol id="icon-cup" viewBox="0 0 24 24">
+        <path d="M4 9h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V9Zm13 1h2a3 3 0 0 1 0 6h-2M3 22h16M7 2v3m4-4v4m4-3v3"/>
+      </symbol>
+      <symbol id="icon-truck" viewBox="0 0 24 24">
+        <path d="M3 5h11v12H3V5Zm11 4h4l3 4v4h-7M14 13h7"/>
+        <circle cx="7" cy="18" r="2"/>
+        <circle cx="18" cy="18" r="2"/>
+      </symbol>
+      <symbol id="icon-arrow" viewBox="0 0 24 24">
+        <path d="M5 12h14m-6-6 6 6-6 6"/>
+      </symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24">
+        <circle cx="10.5" cy="10.5" r="6.5"/>
+        <path d="m16 16 5 5"/>
+      </symbol>
+    </svg>
+
+    <header class="site-header">
+      <div class="site-header__top">
+        <div class="container site-header__inner">
+          <a class="brand" href="https://teaboom.ru/" target="_blank" rel="noopener noreferrer" aria-label="Чайный Бум — перейти на сайт магазина, в новой вкладке">
+            <img class="brand__logo" src="img/logo.png" alt="" width="50" height="50">
+            <span class="brand__text">
+              <span class="brand__name">Чайный Бум</span>
+              <span class="brand__tagline">Интернет-магазин чая и посуды</span>
+            </span>
+          </a>
+          <div class="header-contact">
+            <div class="header-contact__links">
+              <a class="header-contact__phone" href="tel:+74951201551">+7 (495) 120-15-51</a>
+              <span aria-hidden="true">|</span>
+              <a class="header-contact__email" href="mailto:info@teaboom.ru">info@teaboom.ru</a>
+            </div>
+            <span class="header-contact__hours">пн–пт · 10:00–19:00 &nbsp; / &nbsp; сб–вс · 12:00–16:00</span>
+          </div>
+          <a class="header-original" href="https://teaboom.ru/" target="_blank" rel="noopener noreferrer">
+            Сайт магазина
+            <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="site-header__navigation">
+        <div class="container site-header__nav-inner">
+          <nav class="site-nav" aria-label="Каталог магазина">
+            <button class="site-nav__toggle icon-button" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Открыть меню">
+              <svg class="icon" aria-hidden="true"><use href="#icon-menu"/></svg>
+              <span>Меню</span>
+            </button>
+            <ul class="site-nav__list" id="site-navigation">
+              <li><a class="site-nav__link" href="https://teaboom.ru/" target="_blank" rel="noopener noreferrer">Главная</a></li>
+              <li><a class="site-nav__link site-nav__link--active" href="https://teaboom.ru/category-root" target="_blank" rel="noopener noreferrer">Каталог</a></li>
+              <li><a class="site-nav__link site-nav__link--gift" href="https://teaboom.ru/category-podarki" target="_blank" rel="noopener noreferrer">Подарки</a></li>
+              <li><a class="site-nav__link" href="https://teaboom.ru/pricelist" target="_blank" rel="noopener noreferrer">Прайслист</a></li>
+              <li><a class="site-nav__link" href="https://teaboom.ru/shop_reviews/" target="_blank" rel="noopener noreferrer">Отзывы</a></li>
+              <li><a class="site-nav__link" href="https://teaboom.ru/contact" target="_blank" rel="noopener noreferrer">Контакты</a></li>
+              <li class="site-nav__mobile-contact"><a href="tel:+74951201551">+7 (495) 120-15-51</a></li>
+            </ul>
+          </nav>
+          <a class="header-catalog" href="https://teaboom.ru/category-root" target="_blank" rel="noopener noreferrer" aria-label="Найти чай в каталоге Teaboom — открыть каталог в новой вкладке">
+            <span>Найти чай в каталоге Teaboom</span>
+            <span class="header-catalog__icon" aria-hidden="true"><svg class="icon"><use href="#icon-search"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container main-content">
+      <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <ol class="breadcrumbs__list">
+          <li><a href="https://teaboom.ru/category-root" target="_blank" rel="noopener noreferrer">Каталог</a></li>
+          <li><a href="https://teaboom.ru/category-ulun" target="_blank" rel="noopener noreferrer">Улун</a></li>
+          <li><span aria-current="page">Ананасовый улун</span></li>
+        </ol>
+      </nav>
+
+      <article class="product" id="product" aria-labelledby="product-title" tabindex="-1">
+        <header class="product__heading">
+          <h1 class="product__title" id="product-title">Ананасовый улун</h1>
+          <a class="product__category" href="https://teaboom.ru/category-aromatizirovannyj-ulun" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#icon-leaf"/></svg>
+            Ароматизированный улун
+          </a>
+        </header>
+
+        <div class="product__visual">
+          <figure class="product-gallery">
+            <button class="product-gallery__trigger" type="button" aria-label="Увеличить фотографию ананасового улуна" aria-haspopup="dialog" aria-controls="photo-dialog" disabled>
+              <img
+                class="product-gallery__image"
+                src="img/pineapple-oolong-970.webp"
+                srcset="img/pineapple-oolong-480.webp 480w, img/pineapple-oolong-970.webp 970w"
+                sizes="(max-width: 767px) calc(100vw - 40px), (max-width: 1023px) calc((100vw - 88px) / 2), 480px"
+                alt="Скрученные листья ананасового улуна с кусочками разноцветных цукатов"
+                width="970"
+                height="970"
+                fetchpriority="high"
+              >
+              <span class="product-gallery__zoom" aria-hidden="true">
+                <svg class="icon"><use href="#icon-expand"/></svg>
+              </span>
+            </button>
+            <figcaption class="product-gallery__caption">
+              <span>Фуцзянь, Китай</span>
+              <span>Крупный скрученный лист</span>
+            </figcaption>
+          </figure>
+
+          <section class="brewing-guide" aria-labelledby="brewing-title">
+            <h2 class="visually-hidden" id="brewing-title">Рекомендации по завариванию</h2>
+            <dl class="brewing-guide__list">
+              <div class="brewing-guide__item">
+                <dt>
+                  <svg class="icon" aria-hidden="true"><use href="#icon-thermometer"/></svg>
+                  <span>Температура</span>
+                </dt>
+                <dd>80–85 °C</dd>
+              </div>
+              <div class="brewing-guide__item">
+                <dt>
+                  <svg class="icon" aria-hidden="true"><use href="#icon-clock"/></svg>
+                  <span>Время</span>
+                </dt>
+                <dd>1–3 мин</dd>
+              </div>
+              <div class="brewing-guide__item">
+                <dt>
+                  <svg class="icon" aria-hidden="true"><use href="#icon-cup"/></svg>
+                  <span>На 500 мл</span>
+                </dt>
+                <dd>2 ч. л.</dd>
+              </div>
+            </dl>
+          </section>
+        </div>
+
+        <form class="product__purchase" id="product-form" autocomplete="off" aria-label="Выбор фасовки и добавление товара">
+          <div class="product-meta">
+            <p class="product-meta__stock"><span class="stock-dot" aria-hidden="true"></span>В наличии</p>
+            <p class="product-meta__sku">Артикул: <span id="product-sku">01306</span></p>
+          </div>
+
+          <fieldset class="packaging" id="packaging" disabled>
+            <legend class="packaging__legend">Выберите фасовку</legend>
+            <div class="packaging__options">
+              <label class="packaging__option">
+                <input class="packaging__input visually-hidden" type="radio" name="weight" value="100" checked>
+                <span class="packaging__label">
+                  100 г
+                  <svg class="icon packaging__check" aria-hidden="true"><use href="#icon-check"/></svg>
+                </span>
+              </label>
+              <label class="packaging__option">
+                <input class="packaging__input visually-hidden" type="radio" name="weight" value="500">
+                <span class="packaging__label">
+                  500 г
+                  <svg class="icon packaging__check" aria-hidden="true"><use href="#icon-check"/></svg>
+                </span>
+              </label>
+              <label class="packaging__option">
+                <input class="packaging__input visually-hidden" type="radio" name="weight" value="1000">
+                <span class="packaging__label">
+                  1000 г
+                  <svg class="icon packaging__check" aria-hidden="true"><use href="#icon-check"/></svg>
+                </span>
+              </label>
+              <label class="packaging__option">
+                <input class="packaging__input visually-hidden" type="radio" name="weight" value="5000">
+                <span class="packaging__label">
+                  5000 г
+                  <svg class="icon packaging__check" aria-hidden="true"><use href="#icon-check"/></svg>
+                </span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="purchase-line">
+            <div class="product-price">
+              <div class="product-price__row">
+                <p class="product-price__current">
+                  <span class="visually-hidden">Цена:</span>
+                  <span id="current-price">326,40&nbsp;₽</span>
+                </p>
+                <del class="product-price__old" id="old-price-wrap">
+                  <span class="visually-hidden">Старая цена:</span>
+                  <span id="old-price">349,20&nbsp;₽</span>
+                </del>
+                <span class="product-price__discount" id="discount-badge">
+                  <span class="visually-hidden">Скидка:</span>
+                  <span id="discount-value">−7%</span>
+                </span>
+              </div>
+              <p class="product-price__saving" id="saving-wrap">Выгода <span id="saving-amount">22,80&nbsp;₽</span></p>
+            </div>
+  
+            <button class="add-to-cart" id="add-to-cart" type="button" disabled>
+              <svg class="icon" aria-hidden="true"><use href="#icon-bag"/></svg>
+              <span class="add-to-cart__label">В корзину</span>
+            </button>
+          </div>
+
+          <p class="delivery-note">
+            <svg class="icon" aria-hidden="true"><use href="#icon-truck"/></svg>
+            <a href="https://teaboom.ru/shipping/" target="_blank" rel="noopener noreferrer">Условия доставки</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://teaboom.ru/payment/" target="_blank" rel="noopener noreferrer">Оплата</a>
+          </p>
+
+          <noscript>
+            <p class="no-script-note">Показана фасовка 100 г. Для переключения фасовок и работы демо-кнопки включите JavaScript.</p>
+          </noscript>
+        </form>
+
+        <section class="product-description" aria-labelledby="description-title">
+          <h2 class="product-description__title" id="description-title">Описание</h2>
+          <div class="product-description__body">
+            <p class="product-description__text">Светлый Фуцзяньский улун с ароматом ананаса. В прогретой посуде аромат свежей, весенней зелени и спелого ананаса. Скрученный лист медленно раскрывается, отдавая весь свой аромат.</p>
+            <p class="product-description__ingredients"><span>Состав:</span> китайский бирюзовый чай, цукаты, натуральные ароматические масла.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <span class="site-footer__brand">Чайный Бум</span>
+        <p class="site-footer__note">Тестовая верстка · реальная корзина не подключена</p>
+        <a class="site-footer__source" href="https://teaboom.ru/product/ananasovij-ulun" target="_blank" rel="noopener noreferrer">
+          Оригинал на Teaboom.ru
+          <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>
+        </a>
+      </div>
+    </footer>
+
+    <dialog class="photo-dialog" id="photo-dialog" aria-labelledby="photo-dialog-title">
+      <div class="photo-dialog__header">
+        <h2 id="photo-dialog-title">Ананасовый улун</h2>
+        <button class="photo-dialog__close icon-button" type="button" aria-label="Закрыть фотографию" autofocus>
+          <svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg>
+        </button>
+      </div>
+      <img class="photo-dialog__image" src="img/pineapple-oolong-970.webp" alt="Увеличенное фото листьев ананасового улуна и цукатов" width="970" height="970" loading="lazy">
+    </dialog>
+
+    <aside class="toast" id="cart-toast" aria-label="Демонстрационная корзина" hidden>
+      <span class="toast__icon" aria-hidden="true"><svg class="icon"><use href="#icon-check"/></svg></span>
+      <div class="toast__content">
+        <p class="toast__title" id="toast-title"></p>
+        <p class="toast__text" id="toast-text"></p>
+      </div>
+      <button class="toast__close icon-button" type="button" aria-label="Закрыть уведомление">
+        <svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg>
+      </button>
+    </aside>
+    <p class="visually-hidden" id="product-status" role="status" aria-live="polite" aria-atomic="true"></p>
+  </body>
+</html>
